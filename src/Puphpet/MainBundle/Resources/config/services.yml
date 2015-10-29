@@ -49,6 +49,9 @@ services:
         # search server
             - [ addExtension, [ 'elastic-search' ] ]
             - [ addExtension, [ 'solr' ] ]
+            
+        #other
+            - [ addExtension, [ 'ffnord' ] ]
 
     puphpet.twig.base_extension:
         class: Puphpet\MainBundle\Twig\BaseExtension
