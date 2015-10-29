@@ -134,3 +134,8 @@ puphpet.elastic_search:
 puphpet.solr:
     resource: "@PuphpetMainBundle/Resources/config/solr/routing.yml"
     prefix:   /extension/solr
+    
+#other
+puphpet.ffnord:
+    resource: "@PuphpetMainBundle/Resources/config/ffnord/routing.yml"
+    prefix:   /extension/ffnord
