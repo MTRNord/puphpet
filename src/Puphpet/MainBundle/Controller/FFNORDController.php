@@ -7,7 +7,7 @@ class ApacheController extends Controller
     public function indexAction(array $data)
     {
         return $this->render('PuphpetMainBundle:ffnord:form.html.twig', [
-            'apache' => $data,
+            'ffnord' => $data,
         ]);
     }
     public function vhostAction()
